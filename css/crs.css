@@ -1,0 +1,56 @@
+.csr-bg{
+	background-image: url('../img/csr-bg.jpg');
+	height: 400px;
+	width:100%;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top: 150px;
+}
+.csr-bg h1{
+	background-color: rgba(30,154,12,0.7);
+	margin:0px 400px;
+	padding:13px 0px;
+	color:#f3f3f3;
+	border-radius: 5px;
+	letter-spacing: 1px;
+	font-family: 'Roboto', sans-serif;
+}
+.csr-in{
+	padding-top: 40px;
+	padding-bottom: 50px
+}
+.csr-in h3{
+	font-family: 'Roboto', sans-serif;
+	padding-bottom: 15px;
+}
+.csr-in .p1, .csr-in .p2, .csr-in .p3{
+	font-family: 'Roboto', sans-serif;
+}
+hr{
+	width: 70%;
+	border:0.5px solid green;
+}
+.csr-in img{
+	cursor: pointer;
+}
+.csr-in img:hover{
+	opacity: 0.8;
+	transition: 0.6s;
+	border:1px solid green;
+}
+@media screen and (max-width: 900px){
+	.csr-bg{
+		height: 300px;
+		padding-top: 90px;
+	}
+	.csr-bg h1{
+		margin:0px 100px;
+		font-size: 23px;
+	}
+	.csr-in h3{
+		font-size: 22px;
+	}
+	.csr-in .csr-img img{
+		margin-top: 15px;
+	}
+}

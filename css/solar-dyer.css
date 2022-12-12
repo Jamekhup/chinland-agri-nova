@@ -1,0 +1,42 @@
+.solar-dyer{
+	background-image: url('../img/solar-dyer-1.jpg');
+	width: 100%;
+	height: 400px;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top: 160px;
+}
+.solar-dyer h1{
+	background-color: rgba(30,154,12,0.7);
+	margin:0px 400px;
+	padding:13px 0px;
+	color:#f3f3f3;
+	border-radius: 5px;
+	letter-spacing: 1px;
+	font-family: 'Roboto', sans-serif;
+}
+@media screen and (max-width: 900px){
+	.solar-dyer{
+		padding-top: 90px;
+		height: 300px;
+	}
+	.solar-dyer h1{
+		margin:0px 100px;
+		font-size: 23px;
+	}
+	.solar-dyer-in .container .solar-img img{
+		height: 210px;
+		margin-top: 15px;
+	}
+}
+
+.solar-dyer-in{
+	margin-top:40px;
+	margin-bottom: 50px;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 1px;
+}
+
+.solar-dyer-in .solar-img img{
+	height: 300px;
+}

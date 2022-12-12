@@ -1,0 +1,71 @@
+.contact-bg{
+	background-image: url('../img/contact-bg.jpg');
+	background-attachment: fixed;
+	background-size:cover;
+	height: 400px;
+	padding-top:140px;
+}
+.contact-bg h1{
+	background-color: rgba(30,154,12,0.7);
+	margin:0px 350px;
+	padding:20px 0px;
+	border-radius: 5px;
+	color:#f3f3f3;
+	font-family: 'Roboto', sans-serif;
+}
+.contact-sec{
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	padding-top: 50px;
+	overflow-x: hidden;
+	background-color:#f9f9f9;
+}
+.contact-sec .container h3{
+	font-family: 'Roboto', sans-serif;
+}
+.contact-sec .container p{
+	font-family: 'Roboto', sans-serif;
+	letter-spacing:1px;
+}
+.contact-sec .container p a{
+	text-decoration: none;
+	color:#222;
+}
+.contact-sec .container p i{
+	font-size: 23px;
+	margin-right: 8px;
+	color:#229D0b;
+}
+
+@media screen and  (max-width: 900px){
+	.contact-bg{
+		height: 200px;
+		overflow-x: hidden;
+		padding-top: 60px;
+	}
+	.contact-bg h1{
+		margin:0px 50px;
+		font-size: 23px;
+	}
+	.contact-sec .container .myfb{
+		margin-top: 30px;
+	}
+	.contact-sec h3{
+		font-size: 22px;
+	}
+}
+
+
+
+
+
+
+
+
+
+/*map*/
+.g-map{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	border-top:1px solid #222;
+}

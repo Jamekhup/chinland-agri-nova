@@ -1,0 +1,295 @@
+.bd-example .carousel-inner .carousel-item img{
+    height: 480px;
+}
+@media screen and (max-width:700px){
+    .bd-example .carousel-inner .carousel-item img{
+        height: 250px;
+    }
+    .welcome h1{
+        font-size: 18px !important;
+    }
+}
+
+.welcome{
+    padding-top:30px;
+    padding-bottom: 30px;
+    background-color: #f0f2ef;
+    -webkit-box-shadow: -1px 4px 14px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 4px 14px -4px rgba(0,0,0,0.75);
+    box-shadow: -1px 4px 14px -4px rgba(0,0,0,0.75);
+}
+.welcome h1{
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+.welcome p{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.7;
+}
+
+
+/*product*/
+.product{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.product h2{
+    padding-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.product .product-btn{
+    margin-top: 20px;
+}
+.product .product-btn a{
+    background-color:#1E9B0C !important;
+    border:none;
+    border-radius: 0px !important;
+    font-family: 'Roboto', sans-serif;
+
+}
+.product .product-btn a:hover{
+    background-color:#6AE688 !important;
+    color:#222;
+    transition:0.4s;
+}
+.product .container .row .my-maca{
+    position: relative;
+}
+.product .container .row .my-maca:hover{
+    opacity:0.8;
+}
+.product .container .row .my-maca img{
+    display: block;
+    width: 100% !important;
+    height: 200px;
+}
+.product .container .row .my-maca .maca{
+    cursor: pointer;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top:0 !important;
+    left: 0 !important;
+    bottom: 0 !important;
+    right: 0 !important;
+}
+.product .container .row .my-maca .maca h5{
+    position: absolute;
+    top:40%;
+    left: 30%;
+    border:1px solid #1f9b0c;
+    padding:7px 18px;
+    color:#fff;
+    background-color:rgba(52,70,93,0.7);
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+
+.product .container .row .my-sancha{
+    position: relative;
+}
+.product .container .row .my-sancha:hover{
+    opacity:0.8;
+}
+.product .container .row .my-sancha img{
+    display: block;
+    width: 100% !important;
+    height: 200px;
+}
+.product .container .row .my-sancha .sancha{
+    cursor: pointer;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top:0 !important;
+    left: 0 !important;
+    bottom: 0 !important;
+    right: 0 !important;
+}
+.product .container .row .my-sancha .sancha h5{
+    position: absolute;
+    top:40%;
+    left: 30%;
+    border:1px solid #1f9b0c;
+    padding:7px 18px;
+    color:#fff;
+    background-color:rgba(52,70,93,0.7);
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+
+.product .container .row .my-coffee{
+    position: relative;
+}
+.product .container .row .my-coffee:hover{
+    opacity:0.8;
+}
+.product .container .row .my-coffee img{
+    display: block;
+    width: 100% !important;
+    /*height: 200px;*/
+}
+.product .container .row .my-coffee .coffee{
+    cursor: pointer;
+    width: 100%;
+    /*height: 200px;*/
+    position: absolute;
+    top:0 !important;
+    left: 0 !important;
+    bottom: 0 !important;
+    right: 0 !important;
+}
+.product .container .row .my-coffee .coffee h5{
+    position: absolute;
+    top:40%;
+    left: 27%;
+    border:1px solid #1f9b0c;
+    padding:7px 18px;
+    color:#fff;
+    background-color:rgba(52,70,93,0.7);
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 700px){
+    .product .container .col-md-4 img{
+        margin-top: 25px;
+    }
+    .product h2{
+        font-size: 20px;
+    }
+    .founder p{
+        margin-top: 25px;
+    }
+    .title h3{
+        font-size:20px;
+    }
+    .contact-info .container .col-md-4{
+        margin-top: 25px;
+    }
+    .product .container .row .my-maca .maca h5{
+        top:55%;
+        left: 25%;
+    }
+    .product .container .row .my-sancha .sancha h5{
+        top:55%;
+        left: 25%;
+    }
+    .product .container .row .my-coffee .coffee h5{
+        top:55%;
+        left: 22%;
+    }
+}
+
+
+
+
+hr{
+    width: 70%;
+    border:0.4px solid green;
+}
+/*about founder*/
+.founder{
+    margin-top: 30px;
+    /*margin-bottom: 30px;*/
+    background-image: linear-gradient(to right top, #61da8b, #64de8a, #67e28a, #6ae589, #6de988);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.founder h3{
+    padding-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.founder p{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/*solar dyer cta*/
+.title{
+    margin-top: 30px;
+    margin-bottom: -20px !important;
+}
+.cta-btn{
+    background-image:url('../img/farm-bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    padding:50px 0px;
+}
+.cta-btn h3{
+    font-family: 'Roboto', sans-serif;
+    color:#f9f9f9;
+    text-shadow: 2px 1px 2px #222;
+}
+.cta-btn a{
+    background-color:#1E9B0C !important;
+    border:none;
+    border-radius: 0px !important;
+    font-family: 'Roboto', sans-serif;
+}
+.cta-btn a:hover{
+    background-color:#6AE688 !important;
+    color:#222;
+    transition:0.4s;
+}
+
+/*partner*/
+.partner{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.partner .container h3{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    padding-bottom: 40px;
+}
+.partner .container .slider{
+    /*width:100px;
+    height: 100px;*/
+    text-align: center;
+}
+@media screen and (max-width: 600px){
+    .partner .container .slider img{
+        width:40px;
+        height: auto;
+    }
+}
+
+
+
+/*contact info*/
+
+.title h3{
+    font-family: 'Roboto', sans-serif;
+}
+.contact-info{
+    padding:60px 0px;
+    margin-top: 30px;
+    background-image: linear-gradient(to right top, #0b9411, #16980f, #1f9b0c, #269f08, #2da304);
+}
+.contact-info .container .col-md-4 .col-md-2 i{
+    font-size: 23px;
+    color:#d13f17;
+}
+.contact-info .container .col-md-4 .col-md-10 p{
+    font-family: 'Roboto', sans-serif;
+    color:#34465d;
+    letter-spacing: 1px;
+}
+.contact-info .container .col-md-4 .col-md-10  a{
+    text-decoration: none;
+    color:#34465d;
+}
+
+
+
+
+
+
+
+
+
